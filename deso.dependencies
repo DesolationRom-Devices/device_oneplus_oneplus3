@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "device_oppo_common",
+    "target_path": "device/oppo/common",
+    "remote": "deso-devices",
+    "branch": "n"
+  },
+  {
+    "repository": "packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "remote": "deso-devices",
+    "branch": "n"
+  },
+  {
+    "repository": "vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "remote": "deso-devices",
+    "branch": "n"
+  },
+  {
+    "repository": "kernel_oneplus_msm8996",
+    "target_path": "kernel/oneplus/msm8996",
+    "remote": "deso-devices",
+    "branch": "n"
+  }
+]
