@@ -428,4 +428,6 @@
 
     <!-- Proximity check on screen on default -->
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
+
+    <bool name="config_fingerprintRemoveClientOnCancel">true</bool>
 </resources>

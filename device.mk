@@ -193,7 +193,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OneplusDoze
 
-# OnePlus Pocket Mode    
+# OnePlus Pocket Mode
+PRODUCT_PACKAGES += \
     OneplusPocketMode
 
 # Fingerprint sensor
