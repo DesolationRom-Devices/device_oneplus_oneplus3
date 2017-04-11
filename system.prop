@@ -46,6 +46,9 @@ vidc.dec.120fps.enabled=1
 ro.media.enc.jpeg.quality=100
 ro.media.enc.hprof.vid.fps=120
 
+# Camera
+persist.camera.hal.debug=0
+
 # Display power reduction (FOSS)
 ro.qcom.dpps.sensortype=3
 ro.qualcomm.display.paneltype=1
