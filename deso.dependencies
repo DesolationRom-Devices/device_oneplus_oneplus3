@@ -1,26 +1,32 @@
 [
-  {
-    "repository": "device_oppo_common",
+ {
+    "repository": "DesolationRom-Devices/device_oppo_common",
     "target_path": "device/oppo/common",
-    "remote": "deso-devices",
+    "remote": "github",
     "branch": "n"
-  },
-  {
-    "repository": "packages_resources_devicesettings",
+ },
+ {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
-    "remote": "deso-devices",
-    "branch": "n"
-  },
-  {
-    "repository": "vendor_oneplus",
+    "remote": "github",
+    "branch": "cm-14.1"
+ },
+ {
+    "repository": "DesolationRom-Devices/vendor_oneplus",
     "target_path": "vendor/oneplus",
-    "remote": "deso-devices",
+    "remote": "github",
     "branch": "n"
-  },
-  {
+ },
+ {
+    "repository" : "LineageOS/android_hardware_cyanogen",
+    "target_path": "hardware/cyanogen",
+    "remote": "github",
+    "branch"     : "cm-14.1"
+ },
+ {
     "repository": "B14CKB1RD-Kernel/B14CKB1RD_Kernel_OnePlus3_Unified",
     "target_path": "kernel/oneplus/msm8996",
     "remote": "github",
     "branch": "n7.1"
-  }
+ }
 ]
