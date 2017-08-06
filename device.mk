@@ -193,10 +193,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OneplusDoze
 
+# OnePlus Pocket Mode    
+    OneplusPocketMode
+
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
     fingerprintd \
-    OneplusPocketMode
+    fingerprint.msm8996 \
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
