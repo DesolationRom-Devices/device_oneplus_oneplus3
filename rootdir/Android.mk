@@ -1,5 +1,17 @@
 LOCAL_PATH := $(call my-dir)
 
+# Prebuilt Apps
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GoogleCamera
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := apk/GoogleCamera/GoogleCamera.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
+include $(BUILD_PREBUILT)
+
 # Device init scripts
 
 include $(CLEAR_VARS)
