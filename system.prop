@@ -39,6 +39,7 @@ persist.camera.llc=1
 persist.camera.llnoise=1
 
 # Enable RAW support and camera modes
+persist.camera.HAL3.enabled=1
 persist.camera.hal3.prv.feature=1
 ro.camcorder.videoModes=true
 persist.camera.promode=true
