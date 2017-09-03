@@ -166,7 +166,12 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     GoogleCamera \
+    OnePlusGallery \
     libcamera_shim
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/lib64/libfilter-sdk.so:system/lib64/libfilter-sdk.so \
+    $(LOCAL_PATH)/rootdir/lib64/libopbaselib.so:system/lib64/libopbaselib.so
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
